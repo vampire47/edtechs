@@ -51,7 +51,7 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="courses.html">Courses</a></li>
-          <li><a href="trainers.html">Trainers</a></li>
+          <!--<li><a href="trainers.html">Trainers</a></li>-->
           <li><a href="events.html">Events</a></li>
           <li><a href="pricing.html">Pricing</a></li>
          
@@ -71,14 +71,15 @@
     <div class="breadcrumbs" data-aos="fade-in">
       <div class="container">
         <h2>Contact Us</h2>
-        <p>Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium. </p>
+        <p></p>
       </div>
     </div><!-- End Breadcrumbs -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div data-aos="fade-up">
-        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3779.6178400897193!2d73.86503221420658!3d18.681137469121037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c86d1009869b%3A0xd9b4545c3c6116c3!2sDMK%20Stella%20Office!5e0!3m2!1sen!2sin!4v1611123919824!5m2!1sen!2sin"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+       <!-- <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>-->
       </div>
 
       <div class="container" data-aos="fade-up">
@@ -90,60 +91,105 @@
               <div class="address">
                 <i class="icofont-google-map"></i>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>Stella Towers Pune,412105 India</p>
               </div>
-
+            
               <div class="email">
                 <i class="icofont-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>xmartoa@gmai.com</p>
               </div>
 
               <div class="phone">
                 <i class="icofont-phone"></i>
                 <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <p>+91 9503611766</p>
               </div>
 
             </div>
 
           </div>
 
-          <div class="col-lg-8 mt-5 mt-lg-0">
+          <!--<div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validate"></div>
+                  <input type="text"  class="form-control" id="first_name" maxlength="40" name="first_name" size="20" type="text"  placeholder="Your Name" />
+                  
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validate"></div>
+                  <input type="email" class="form-control" id="email" maxlength="80" name="email" size="20" type="text"  placeholder="Your Email"  />
+                  
                 </div>
               </div>
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" class="form-control" id="mobile" maxlength="40" name="mobile" size="20" placeholder="Enter Phone No." />
+                  
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="text"  class="form-control" id="city" maxlength="40" name="city" size="20" placeholder="Your City" />
+                  
+                </div>
+                
+              </div>
+              
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validate"></div>
+                <textarea class="form-control" name="message" rows="5" data-rule="required"  placeholder="Message"></textarea>
+                
               </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                <div class="validate"></div>
-              </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <input type="submit" name="submit">
+            
+              <div class="text-center"><button name="submit" type="submit">Send Message</button></div>
             </form>
 
           </div>
 
-        </div>
+        </div>-->
 
+      
+      <div class="col-lg-8 mt-5 mt-lg-0">
+      <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+        <!--  ----------------------------------------------------------------------  -->
+        <!--  NOTE: Please add the following <FORM> element to your page.             -->
+        <!--  ----------------------------------------------------------------------  -->
+        <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" class="register-form" id="register-form" method="POST">
+          <input type=hidden name="oid" value="00D2y000000vpDs">
+          <input type=hidden name="retURL" value="https://x-marta.netlify.app/">
+           <!--  ----------------------------------------------------------------------  -->
+           <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+           <!--  these lines if you wish to test in debug mode.                          -->
+           <!--  <input type="hidden" name="debug" value=1>                              -->
+           <!--  <input type="hidden" name="debugEmail" value="ankitmm007@gmail.com">    -->
+           <!--  ----------------------------------------------------------------------  -->
+        <div class="row">
+            <div class="col-md-6 form-group">
+            <input  id="first_name" class="form-control"  placeholder="Your Name" maxlength="40" name="first_name" size="20" type="text" /><br>
+            </div>
+           <div class="col-md-6 form-group mt-3 mt-md-0">
+             <input  id="email" maxlength="80" name="email"  class="form-control" placeholder="Your Email" size="20" type="text" /><br>
+            </div> 
+          </div>
+          <div class="row">
+            <div class="col-md-6 form-group">
+           <input  id="phone" class="form-control"  placeholder="Your Phone No." maxlength="40" name="phone" size="20" type="text" /><br>
+           </div>
+           <div class="col-md-6 form-group">
+            <input type="text"  class="form-control" id="city" maxlength="40" name="city" size="20" placeholder="Your City" />
+           </div>
+          </div>
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="description" rows="5" data-rule="required"  placeholder="Message"></textarea>
+            
+          </div>
+        
+           <input type="submit" name="submit" class="textcenter">
+        </form>
       </div>
+    </div>
     </section><!-- End Contact Section -->
+
 
   </main><!-- End #main -->
 
@@ -157,20 +203,20 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>XMARTA</h3>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              Stella Towers <br>
+              Pune,412105<br>
+              India <br><br>
+              <strong>Phone:</strong> +91 9503611766<br>
+              <strong>Email:</strong> xmartoa@gmai.com<br>
             </p>
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./about.html">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./courses.html">Services</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
             </ul>
@@ -179,18 +225,18 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./courses.html">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./courses.html">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./courses.html">Internet Of Things</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./courses.html">Programming</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./courses.html">Data Science</a></li>
             </ul>
           </div>
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
+            <p>To get the latest updates of The Conent and Courses!</p>
+            <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" class="register-form" id="register-form" method="POST">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
           </div>
@@ -205,17 +251,17 @@
         <div class="copyright">
           &copy; Copyright <strong><span>XMARTA</span></strong>. All Rights Reserved
         </div>
-        <div class="credits">
+        <!--<div class="credits">
           <!-- All the links in the footer should remain intact. -->
           <!-- You can delete the links only if you purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/XMARTA-free-education-bootstrap-theme/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
+         <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>-->
       </div>
       <div class="social-links text-center text-md-right pt-3 pt-md-0">
         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook c"></i></a>
         <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
         <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
         <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
